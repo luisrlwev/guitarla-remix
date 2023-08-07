@@ -1,6 +1,23 @@
 import { useLoaderData } from "@remix-run/react"
 import { getPosts } from "~/models/posts.server"
 import Post from "~/components/post"
+import styles from '~/styles/blog.css'
+
+export function meta(){
+  return[
+    {title: 'Blog - GuitarLA'},
+    {description: 'Entérate de todas las noticias sobre guitarras en GuitarLA'}
+  ]
+}
+
+export function links(){
+  return [
+    {
+      rel: 'stylesheet',
+      href: styles
+    }
+  ]
+}
 
 export async function loader(){
   const posts = await getPosts()
