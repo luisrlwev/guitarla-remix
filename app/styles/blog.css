@@ -16,10 +16,6 @@
     }
 }
 
-.post {
-
-}
-
 .post .contenido {
     padding: 1.5 rem;
 }
@@ -36,4 +32,12 @@
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 4;
     overflow: hidden;
+}
+
+.post .fecha{
+    font-size: 1.6rem;
+}
+
+.imagen {
+    border-radius: 7px;
 }
