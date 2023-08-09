@@ -16,6 +16,11 @@
     }
 }
 
+.post{
+    max-width: 80rem;
+    margin: 50px auto;
+}
+
 .post .contenido {
     padding: 1.5 rem;
 }
@@ -40,4 +45,14 @@
 
 .imagen {
     border-radius: 7px;
+}
+
+.contenido .texto{
+    text-align: justify;
+    white-space: pre-wrap;
+}
+
+.titulo{
+    color: var(--primary);
+    text-decoration: none;
 }
