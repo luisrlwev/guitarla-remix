@@ -29,10 +29,11 @@
     padding: 1rem;
 }
 
-.guitarra .contenido h3 {
+.guitarra .contenido h3, .guitarra .contenido .titulo {
     font-size: 3rem;
     text-transform: uppercase;
-    color: var(--primary)
+    color: var(--primary);
+    text-decoration: none;
 }
 
 .guitarra .descripcion {
