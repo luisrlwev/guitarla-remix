@@ -62,6 +62,7 @@
 
 .header .navegacion {
   display: flex;
+  align-items: center;
   gap: 2rem;
   margin-top: 5rem;
 }
@@ -81,6 +82,10 @@
   padding: .5rem;
   transition-property: background-color;
   transition-duration: 300ms;
+}
+
+.header .navegacion img {
+  width: 3rem;
 }
 
 .header .navegacion a:hover, .header .active{
@@ -123,6 +128,10 @@
 
 .footer .copyright {
   text-align: center;
+}
+
+.footer .navegacion a:last-of-type{
+  display: none;
 }
 
 .error, .error-enlace{
