@@ -51,7 +51,11 @@ export default function App(){
 
     return(
         <Document>
-            <Outlet/>
+            <Outlet
+                context={{
+
+                }}
+            />
         </Document>
     )
 }
